@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Sign in form, Animated floating label sign in form">
+
+
+
+  <link rel="stylesheet" href="./css/style.css" type="text/css" />
+  <title>Google sign in Form</title>
+</head>
+
+<body>
+  <div class="form-container">
+    <form action="#" method="get">
+      <div class="wrapper">
+        <!-- google img Area -->
+        <div class="logo">
+          <img src="./img/google.png" alt="google logo" />
+        </div>
+        <!-- header text Area -->
+        <div class="header-text">
+          <h2>Sign in</h2>
+          <p>with your Google Account</p>
+        </div>
+        <!-- input starts -->
+        <div class="fields">
+          <div class="field">
+            <input type="email" name="email" class="input-field" id="email" value="" autocomplete="off" required=""
+              placeholder=" " />
+            <label class="input-label" for="email">Email or phone</label>
+          </div>
+
+          <div class="field">
+            <input type="password" name="password" class="input-field" id="password" value="" autocomplete="off"
+              required="" placeholder=" " pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+              title="Must contain 0...9, A...Z, a...z and at least 8 character" />
+            <label class="input-label" for="password">Password</label>
+          </div>
+
+          <div class="forget-field">
+            <p class="color-text cursor">
+              Forgot Email or Password?
+            </p>
+          </div>
+
+          <div class="guest-mode-field">
+            <p>
+              Not your computer? Use Guest mode to sign in privately.
+            </p>
+            <p class="color-text cursor">Learn more</p>
+          </div>
+
+          <div class="btn-field">
+            <p class="color-text cursor">Create account</p>
+            <button class="btn" type="submit">Sign in</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
